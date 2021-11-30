@@ -1,0 +1,27 @@
+lineEdit 	14
+label	8 o 10	titulos 30 negrita
+botones 	12
+
+50px de alto
+
+
+['#', 'Id_Empleado', ':', 'varchar(10),', 'no', 'nula']
+['', 'Nombre', ':', 'varchar(25),', 'no', 'nula']
+['', 'Id_Puesto', 'FK:', 'varchar(10),', 'no', 'nula']
+['', 'Id_Area', 'FK:', 'varchar(10),', 'no', 'nula']
+
+# Id_Empleado Fk : varchar(10) no_nula
+
+['#',	'Id_Empleado', 	'', 	':', 	'varchar(10)', 	'no_nula']
+['',	'Nombre', 	'', 	':', 	'varchar(25)', 	'no_nula']
+['',	'Apellidos', 	'', 	':', 	'varchar(25)', 	'no_nula']
+['',	'Edad', 		'', 	':', 	'int', 		'no_nula']
+['',	'Sueldo', 		'', 	':', 	'float',		'no_nula']
+['',	'Puesto', 		'FK', 	':', 	'varchar(10)', 	'no_nula']
+['',	'Area', 		'FK', 	':', 	'varchar(10)', 	'nula']
+
+0 -> llave_primaria
+1 -> Nombre_atritubto
+2 -> llave_foranea
+4 -> tipo_dato
+5 -> null?
